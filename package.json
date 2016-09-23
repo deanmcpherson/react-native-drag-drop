@@ -1,0 +1,24 @@
+{
+  "name": "react-native-drag-drop",
+  "version": "0.0.1",
+  "description": "An example Drag and Drop implementation for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deanmcpherson/react-native-drag-drop.git"
+  },
+  "keywords": [
+    "react-native",
+    "drag",
+    "drop"
+  ],
+  "author": "Dean McPherson (Townske PTY LTD)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deanmcpherson/react-native-drag-drop/issues"
+  },
+  "homepage": "https://github.com/deanmcpherson/react-native-drag-drop#readme"
+}
