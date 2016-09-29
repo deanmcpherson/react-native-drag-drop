@@ -12,6 +12,7 @@ This is a wrapper component for an area where a Draggable element can be dropped
 - **`onEnter`** _(Function)_ Is called when an item is dragged over the zone.
 - **`onLeave`** _(Function)_ Is called when an item is dragged off of the zone.
 - **`onDrop`** _(Function)_ Is called when an item is dropped. The `data` property of the draggable is passed through as an argument.
+- **`disabled`** _(Boolean)_ Prevents being a dropzone when when set to true.
 
 The children of the DropZone are passed the following props also;
 - **`dragOver`** _(Boolean)_ Is true when there is an item being dragged over the zone.
@@ -20,6 +21,7 @@ The children of the DropZone are passed the following props also;
 This is a wrapper component that makes it's children draggable.
 - **`data`** _(Any)_ Whatever is passed in the data prop will be given to the DropZone on drop.
 - **`dragOn`** _(String)_ Expects either onLongPress (default) or onPressIn. Determines when dragging begins.
+- **`disabled`** _(Boolean)_ Prevents dragging when when set to true.
 
 The children of the Draggable componnent are passed the following props also;
 - **`dragging`** _(Boolean)_ The component is being dragged.
